@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Maha Website</title>
+<style>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #ffe6f0, #fffbe6);
+  color: #333;
+  overflow-x: hidden;
+}
+
+/* Top banner */
+header {
+  background: linear-gradient(to right, #ff9aa2, #ffb7b2);
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+header img {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* Letters */
+.letter {
+  background: rgba(255,255,255,0.9);
+  padding: 14px 18px;
+  border-radius: 15px;
+  margin: 15px auto;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+  line-height: 1.6;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 1s ease forwards;
+}
+
+/* Fade animation */
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Floating hearts */
+.hearts {
+  position: fixed;
+  top:0; left:0;
+  width:100%; height:100%;
+  pointer-events:none;
+  z-index: 999;
+}
+.hearts span {
+  position: absolute;
+  font-size: 24px;
+  animation: float 10s linear infinite;
+  opacity: 0.7;
+}
+@keyframes float {
+  0% { transform: translateY(100vh) rotate(0deg); }
+  100% { transform: translateY(-10vh) rotate(360deg); }
+}
+</style>
+</head>
+<body>
+
+<div class="hearts">
+  <span style="left:0vw; animation-delay:0s;">❤️</span>
+  <span style="left:6vw; animation-delay:0.7s;">❤️</span>
+  <span style="left:12vw; animation-delay:1.4s;">❤️</span>
+  <span style="left:18vw; animation-delay:2.1s;">❤️</span>
+  <span style="left:24vw; animation-delay:2.8s;">❤️</span>
+  <span style="left:30vw; animation-delay:3.5s;">❤️</span>
+  <span style="left:36vw; animation-delay:4.2s;">❤️</span>
+  <span style="left:42vw; animation-delay:4.9s;">❤️</span>
+  <span style="left:48vw; animation-delay:5.6s;">❤️</span>
+  <span style="left:54vw; animation-delay:6.3s;">❤️</span>
+  <span style="left:60vw; animation-delay:7s;">❤️</span>
+  <span style="left:66vw; animation-delay:7.7s;">❤️</span>
+  <span style="left:72vw; animation-delay:8.4s;">❤️</span>
+  <span style="left:78vw; animation-delay:9.1s;">❤️</span>
+  <span style="left:84vw; animation-delay:9.8s;">❤️</span>
+</div>
+
+<header>
+  <h1>Maha, ye sirf tumhare liye hai 🤍</h1>
+  <img src="https://i.postimg.cc/4yYrmkvN/teddy.png" alt="Teddy">
+</header>
+
+<div class="letter">Maha ye idk tumhe kaisa lage ga 😭 ... Inshallah tumhe psnd aie ga.</div>
+<div class="letter">Maha ik mai kisi chez me 10 nhi hu na ... tumhe psnd kerne me mai 10 hu😭😭 ...</div>
+<div class="letter">Tum 1 dafa mere pr trust ker ke to dekho ...</div>
+<div class="letter">I miss jo tum mujhe daanti thi ...</div>
+<div class="letter">Idk why you are so good ajeeeb😭😭 ...</div>
+<div class="letter">Tum me aisa kia hai jo mujhe itni achi lagne lag gai ho ...</div>
+<div class="letter">Maha i am not sure mai tumhe khush rkhu ga ke nhi ...</div>
+<div class="letter">Idk mai tumhe kitna psnd ho sakta bura lagta hu mai😭 ...</div>
+<div class="letter">And yk mai tumhe looks waigaira se psnd nhi kerta ...</div>
+<div class="letter">Qasam se mujhe bura lagta jab tum yeh smjhti ho ke tum buriii ho ...</div>
+<div class="letter">Mujhe pata tum bus mere haan haan me haan mila deti ...</div>
+<div class="letter">Mai bhi bura smjhta apne aap ko but not like you ...</div>
+<div class="letter">Kitni dafa batao idk tum kab mano gi ...</div>
+<div class="letter">Like mai kia karu effort kaise karu ye tak ...</div>
+<div class="letter">I want you to ke khush rhe aur mai tumhari ...</div>
+<div class="letter">Aur agar kisi din mera behavior Change ho jai ...</div>
+<div class="letter">Acha ab maan jao na motiiiiiiii😭🤍</div>
+
+<footer>Made with all my emotions for Maha 💛</footer>
+</body>
+</html>
